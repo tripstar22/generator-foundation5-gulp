@@ -1,7 +1,4 @@
-# generator-yeoman-test-trip [![Build Status](https://secure.travis-ci.org/tripstar22/generator-yeoman-test-trip.png?branch=master)](https://travis-ci.org/tripstar22/generator-yeoman-test-trip)
-
-> [Yeoman](http://yeoman.io) generator
-
+# generator-foundation5-gulp
 
 ## Getting Started
 
@@ -23,16 +20,16 @@ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-yeoman-test-trip from npm, run:
+To install generator-foundation5-gulp from npm, run:
 
 ```bash
-npm install -g generator-yeoman-test-trip
+npm install -g generator-foundation5-gulp
 ```
 
 Finally, initiate the generator:
 
 ```bash
-yo yeoman-test-trip
+yo foundation5-gulp
 ```
 
 ### Getting To Know Yeoman

@@ -27,4 +27,3 @@ yo foundation5-gulp
 ## License
 
 MIT
-# generator-yeoman-test-trip

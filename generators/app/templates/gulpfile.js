@@ -15,7 +15,7 @@ var gulp = require('gulp'),
 gulp.task('styles', function() {
     gulp.src('src/scss/**/*.scss')
         .pipe(plumber())
-        .// pipe(sass({outputStyle: 'compressed'}))
+        .pipe(sass({outputStyle: 'compressed'}))
         .pipe(autoprefixer('last 2 versions'))
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('dist/css'))
@@ -28,7 +28,7 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
     gulp.src('src/js/*.js')
         .pipe(plumber())
-        .// pipe(uglify())
+        .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('dist/js'))
         .pipe(livereload());

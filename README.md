@@ -2,7 +2,7 @@
 
 This lightweight Yeoman starter kit comes with Foundation 5, Gulp.js, scss, Bower, and Ion Icons.
 
-![](http://trippruitt.com/logos_yeoman_generator.png)
+![logos](http://trippruitt.com/logos_yeoman_generator.png)
 
 ## Getting Started
 

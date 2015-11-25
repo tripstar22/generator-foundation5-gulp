@@ -30,11 +30,11 @@ module.exports = yeoman.generators.Base.extend({
   writing: {
     app: function () {
       this.fs.copy(
-        this.templatePath('package.json'),
+        this.templatePath('_package.json'),
         this.destinationPath('package.json')
       );
       this.fs.copy(
-        this.templatePath('bower.json'),
+        this.templatePath('_bower.json'),
         this.destinationPath('bower.json')
       );
       this.fs.copy(

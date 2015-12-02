@@ -1,8 +1,9 @@
 {
-  "name": "yeoman-test-trip",
-  "version": "0.1.0",
+  "name": "bower-components",
+  "version": "0.0.1",
   "dependencies": {
-
+  	"foundation": "~5.5.3",
+   	"ionicons": "~2.0.1"
   }
 }
 

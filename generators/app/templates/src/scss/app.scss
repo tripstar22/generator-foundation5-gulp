@@ -1,20 +1,72 @@
 
-/*====================================
-=            BOWER STYLES            =
-======================================*/
-
-
-
-/*-----  End of BOWER STYLES  ------*/
-
-
 /*=============================
 =            FONTS            =
 =============================*/
 
-
+@import "../bower-components/ionicons/scss/ionicons";
 
 /*-----  End of FONTS  ------*/
+
+
+/*============================================
+=            TOP-LEVEL SCSS FILES            =
+============================================*/
+
+@import "../bower-components/foundation/scss/normalize";
+
+@import "../bower-components/foundation/scss/foundation/functions";
+
+// Custom list of Foundation vars used
+// Bower Foundation vars file comes with all vars commented out
+// Not good practice to edit Bower files so created new file
+@import "vars/foundationVars";
+
+/*=====  End of TOP-LEVEL SCSS FILES  ======*/
+
+
+/*===========================================
+=            FOUNDATION PARTIALS            =
+===========================================*/
+
+@import "../bower-components/foundation/scss/foundation/components/grid",
+		"../bower-components/foundation/scss/foundation/components/accordion",
+		"../bower-components/foundation/scss/foundation/components/alert-boxes",
+		"../bower-components/foundation/scss/foundation/components/block-grid",
+		"../bower-components/foundation/scss/foundation/components/breadcrumbs",
+		"../bower-components/foundation/scss/foundation/components/button-groups",
+		"../bower-components/foundation/scss/foundation/components/buttons",
+		"../bower-components/foundation/scss/foundation/components/clearing",
+		"../bower-components/foundation/scss/foundation/components/dropdown",
+		"../bower-components/foundation/scss/foundation/components/dropdown-buttons",
+		"../bower-components/foundation/scss/foundation/components/flex-video",
+		"../bower-components/foundation/scss/foundation/components/forms",
+		"../bower-components/foundation/scss/foundation/components/icon-bar",
+		"../bower-components/foundation/scss/foundation/components/inline-lists",
+		"../bower-components/foundation/scss/foundation/components/joyride",
+		"../bower-components/foundation/scss/foundation/components/keystrokes",
+		"../bower-components/foundation/scss/foundation/components/labels",
+		"../bower-components/foundation/scss/foundation/components/magellan",
+		"../bower-components/foundation/scss/foundation/components/orbit",
+		"../bower-components/foundation/scss/foundation/components/pagination",
+		"../bower-components/foundation/scss/foundation/components/panels",
+	    "../bower-components/foundation/scss/foundation/components/pricing-tables",
+		"../bower-components/foundation/scss/foundation/components/progress-bars",
+		"../bower-components/foundation/scss/foundation/components/range-slider",
+		"../bower-components/foundation/scss/foundation/components/reveal",
+		"../bower-components/foundation/scss/foundation/components/side-nav",
+		"../bower-components/foundation/scss/foundation/components/split-buttons",
+		"../bower-components/foundation/scss/foundation/components/sub-nav",
+		"../bower-components/foundation/scss/foundation/components/switches",
+		"../bower-components/foundation/scss/foundation/components/tables",
+		"../bower-components/foundation/scss/foundation/components/tabs",
+		"../bower-components/foundation/scss/foundation/components/thumbs",
+		"../bower-components/foundation/scss/foundation/components/tooltips",
+		"../bower-components/foundation/scss/foundation/components/top-bar",
+		"../bower-components/foundation/scss/foundation/components/type",
+		"../bower-components/foundation/scss/foundation/components/offcanvas",
+		"../bower-components/foundation/scss/foundation/components/visibility";
+
+/*=====  End of FOUNDATION PARTIALS  ======*/
 
 
 /*=================================

@@ -73,7 +73,7 @@
 =            VARIABLES            =
 ==================================*/
 
-@import "vars/vars";
+@import "vars/global";
 
 /*-----  End of VARIABLES  ------*/
 
@@ -83,7 +83,7 @@
 ==============================*/
 
 @import
-  "mixins/border-radius";
+  "mixins/borderRadius";
 
 /*-----  End of MIXINS  ------*/
 

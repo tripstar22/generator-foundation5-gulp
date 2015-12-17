@@ -1,9 +1,10 @@
 {
   "name": "yeoman-test-trip",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
+    "gulp-concat": "^2.6.0",
     "gulp-imagemin": "^2.3.0",
     "gulp-livereload": "^3.8.1",
     "gulp-plumber": "^1.0.1",
